@@ -1,0 +1,18 @@
+.progress1,.progress2,.progress3,.progress4,.progress5,.progress6,.progress7,.progress8,.progress9 {
+    height: 23px;
+    width: 50%;
+    background-color: lightgray;
+}
+
+.progress1-done,.progress2-done,.progress3-done,.progress4-done,.progress5-done,.progress6-done,.progress7-done,.progress8-done,.progress9-done {
+    height: 100%;
+    width: 0;
+    opacity: 0;
+    background: #f7484e;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 0 3px 3px -5px #f2709c, 0 2px 5px #f2709c;
+    transition: 1s ease;
+}

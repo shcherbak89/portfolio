@@ -1,0 +1,33 @@
+.contact .l{
+    background: #2d2d2d;
+}
+
+.contact .r{
+    background: white;
+}
+
+.contact .r .heading{
+    font-size: 1.5em;
+}
+
+.contact .l a,.colored{
+    color: #f7484e;
+}
+
+.contact  a:hover{
+    padding-bottom: 2px;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+}
+
+@media only screen and (max-width: 834px) {
+    .contact .r{
+        padding:50px;
+    }
+}
+
+@media only screen and (min-width: 835px) {
+    .contact .r{
+        padding: 85px;
+    }
+}

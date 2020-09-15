@@ -1,0 +1,109 @@
+.page {
+    max-width: 640px;
+    margin: 0px 0px 30px auto;
+}
+
+.panel {
+    background-color: #fff;
+    color: black;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
+    overflow: auto;
+}
+
+button {
+    border: none;
+}
+
+h1 {
+    text-align: center;
+    width: 200px;
+    height: 20px;
+    margin: 40px auto 40px auto;
+    background-repeat: no-repeat;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+h2, h3,h4 {
+    font-weight: normal;
+    margin: 0em;
+    font-size: 16px;
+    letter-spacing: 0.2em;
+}
+h2 {
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    font-size: 230%;
+    line-height: 1em;
+    padding: 20px 0px 0px 20px;}
+h3 {
+    font-size: 18px;
+    letter-spacing: 0.2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    font-size: 90%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+/*****************  No JS ***************/
+#billboard {text-align: center;}
+.js-warning {display: none;}
+
+.no-js .js-warning {
+    display: block;
+    border: 3px solid #fff;
+    text-align: center;
+    background-color: #fff;
+    color: #db5391;
+    padding: 10px;
+}
+
+/********** TABS **********/
+.tab-list {
+    margin: 0px;
+    padding: 0px;
+}
+
+.tab-list li {
+    display: inline-block;
+    list-style-type: none;
+    background-color: #303030;
+    border-bottom: 3px solid #303030;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;}
+
+.tab-list li a {
+    color: #f2f2f2;
+    display: block;
+    padding: 3px 10px 3px 10px;
+}
+
+/********** HOVER STATES **********/
+.tab-list li.active, .tab-list li.hover {
+    background-color: #e5e5e5;
+    border-bottom: 3px solid red;}
+
+.tab-list li.active a, .tab-list li a:hover {
+    color: black;
+    background-color: white;
+}
+
+/********** PANELS **********/
+.tab-panel {
+    display: none;
+    background-color: white;
+    color: black;
+    min-height: 150px;
+}
+
+.tab-panel.active {
+    display: block;
+}

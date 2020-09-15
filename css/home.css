@@ -1,0 +1,51 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color:#f7484e;
+}
+.home img{
+    filter: drop-shadow(0 0 0.75rem #f7484e);
+    height: 370px;
+    width: 370px;
+}
+
+.hbutton a:hover{
+    padding-bottom: 2px;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+}
+
+@media only screen and (max-width: 834px) {
+    .home{
+        height:100vh;
+    }
+}
+
+@media only screen and (max-height: 400px) {
+    .home img{
+        height:200px;
+    }
+}
+
+h5{
+    font-size: 25px;
+}
+
+h1{
+    font-size: 20px;
+    color: white;
+}
+
+.fa-github:hover{
+    color: #800080;
+}
+
+.fa-linkedin-in:hover{
+    color: #007bb6;
+}
+
+.fa-telegram:hover{
+    color: #0088cc
+}

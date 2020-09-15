@@ -1,0 +1,123 @@
+.post-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    gap: 30px;
+    justify-content: center;
+}
+
+.thumbnail {
+    display: block;
+    width: 100%;
+    height: 180px;
+    object-fit: revert;
+}
+
+.post-preview {
+    background-color: #fff;
+    height: 115px;
+}
+
+.post-title {
+    margin: 0;
+    color: #2d2d2d;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.post-intro {
+
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+    color: dimgrey;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+@media only screen and (min-width:550px) {
+    #projects {
+        width: 80%
+    }
+}
+.user {
+    text-align: center;
+    font-size: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.user p {
+    font-size: 16px
+}
+
+@media only screen and (max-width:550px) {
+    .user {
+        flex-wrap: nowrap;
+        font-size: 75px
+    }
+    .post-wrapper{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 250px);
+        gap: 30px;
+        justify-content: center;
+    }
+}
+
+.user-details {
+    padding: 20px;
+    text-align: center;
+    margin: 5px auto;
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+
+}
+
+.project-link {
+
+    display: block;
+
+    margin:10px auto;
+    height: 50px;
+    width: 120px;
+    line-height: 50px;
+    color: #2d2d2d;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    background: white;
+}
+.project-link:hover{
+    background:#f7484e;
+}
+.project-link {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.project-link:active {
+    background: #fff;
+
+}
+.project-link:after{
+    background: #fff;
+}
+
+.color{
+    color: #f7484e;
+}
